@@ -33,8 +33,6 @@ class Container extends React.Component {
                     <button onClick={() => {
                         this.setState({ count: this.state.count - 1 })
                     }}>감소</button>
-
-
                 </div>
             </div>
         )
