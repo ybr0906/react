@@ -41,3 +41,5 @@ class Container extends React.Component {
 
 ReactDOM.render(React.createElement(Container), document.querySelector('#react-root'));
 
+//npx babel --watch src --out-dir . --presets @babel/preset-react
+
